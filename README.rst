@@ -11,6 +11,13 @@ The scanning process involves the following steps:
 * Compress all images (``TIFF``) into ``JPEG`` format
 * Merge all ``JPEG`` images into a single ``PDF`` file
 
+Implementation
+--------------
+
+This implementation is really simple and doesn't provide a full set of features that you
+will normally have using these tools manually. I just need these configurations and I wrote
+this script just to scan quickly some papers.
+
 Requirements
 ------------
 
