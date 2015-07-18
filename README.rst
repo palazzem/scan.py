@@ -24,5 +24,5 @@ License
 
 ``Scan.py`` is released under the terms of the **BSD LICENSE**. Full details in ``LICENSE`` file.
 
-.. _scanimage: http://www.sane-project.org/
+.. _scanimage (SANE): http://www.sane-project.org/
 .. _imagemagick: http://www.imagemagick.org/
