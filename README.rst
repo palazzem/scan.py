@@ -26,6 +26,12 @@ Requirements
 * `scanimage (SANE)`_
 * `imagemagick`_
 
+Roadmap
+-------
+
+* make the script a little more generic
+* provide a simple CLI interface
+
 License
 -------
 
