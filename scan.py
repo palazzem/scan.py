@@ -1,14 +1,12 @@
 import os
 import subprocess
 
+
 SCANNER_DEVICE = "epkowa:interpreter:001:008"
 OUTPUT_FORMAT = "tiff"
 RESOLUTION = 300
 QUALITY = 50
 
-
-def ask_for_input():
-    response =     return response == "y"
 
 def scan_to_file(filename):
     device = "--device {}".format(SCANNER_DEVICE)
@@ -31,7 +29,6 @@ def compress_images(images):
 
 
 def merge_images(images):
-    jpeg_images = []
     files_list = " ".join(images)
     subprocess.call("convert {} output.pdf".format(files_list), shell=True)
 
